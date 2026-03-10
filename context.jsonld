@@ -15,8 +15,14 @@
     "role": "SmartProduce:role",
     "isActive": "SmartProduce:isActive",
     "createdAt": "SmartProduce:createdAt",
-    "geometry": { "@id": "SmartProduce:geometry", "@type": "GeoProperty" },
-    "location": { "@id": "SmartProduce:location", "@type": "GeoProperty" },
+    "geometry": {
+      "@id": "SmartProduce:geometry",
+      "@type": "GeoProperty"
+    },
+    "location": {
+      "@id": "SmartProduce:location",
+      "@type": "GeoProperty"
+    },
     "temperature": "SmartProduce:temperature",
     "humidity": "SmartProduce:humidity",
     "soilMoisture": "SmartProduce:soilMoisture",
@@ -27,18 +33,21 @@
     "measuredValue": "SmartProduce:measuredValue",
     "threshold": "SmartProduce:threshold",
     "condition": "SmartProduce:condition",
-    "triggeredAt": { "@id": "SmartProduce:triggeredAt", "@type": "Property" },
-    "quantity": "SmartProduce:quantity",
-    "quality": "SmartProduce:quality",
-    "information": "SmartProduce:information",
-    "date": { "@id": "SmartProduce:date", "@type": "Property" },
-    "hasFarm": { "@id": "SmartProduce:hasFarm", "@type": "Relationship" },
-    "hasParcel": { "@id": "SmartProduce:hasParcel", "@type": "Relationship" },
-    "hasCrop": { "@id": "SmartProduce:hasCrop", "@type": "Relationship" },
-    "hasDevice": { "@id": "SmartProduce:hasDevice", "@type": "Relationship" },
-    "hasProduction": { "@id": "SmartProduce:hasProduction", "@type": "Relationship" },
-    "hasTreatment": { "@id": "SmartProduce:hasTreatment", "@type": "Relationship" },
-    "hasAlert": { "@id": "SmartProduce:hasAlert", "@type": "Relationship" },
-    "hasAlertRule": { "@id": "SmartProduce:hasAlertRule", "@type": "Relationship" }
+    "triggeredAt": {
+      "@id": "SmartProduce:triggeredAt",
+      "@type": "Property"
+    },
+    "hasFarm": {
+      "@id": "SmartProduce:hasFarm",
+      "@type": "Relationship"
+    },
+    "hasParcel": {
+      "@id": "SmartProduce:hasParcel",
+      "@type": "Relationship"
+    },
+    "hasDevice": {
+      "@id": "SmartProduce:hasDevice",
+      "@type": "Relationship"
+    }
   }
 }
