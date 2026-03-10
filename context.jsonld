@@ -43,6 +43,10 @@
       "@type": "Property"
     },
 
+    "temperature": "SmartProduce:temperature",
+    "humidity": "SmartProduce:humidity",
+    "soilMoisture": "SmartProduce:soilMoisture",
+
     "type": "SmartProduce:type",
     "variety": "SmartProduce:variety",
 
@@ -105,4 +109,5 @@
     }
 
   }
+
 }
