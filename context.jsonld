@@ -1,6 +1,7 @@
 {
   "@context": {
     "SmartProduce": "https://smartproduce.pt/datamodels/",
+
     "User": "SmartProduce:User",
     "Farm": "SmartProduce:Farm",
     "Parcel": "SmartProduce:Parcel",
@@ -10,11 +11,48 @@
     "Treatment": "SmartProduce:Treatment",
     "Alert": "SmartProduce:Alert",
     "AlertRule": "SmartProduce:AlertRule",
+
     "name": "SmartProduce:name",
     "email": "SmartProduce:email",
     "role": "SmartProduce:role",
     "isActive": "SmartProduce:isActive",
     "createdAt": "SmartProduce:createdAt",
+
+    "type": "SmartProduce:type",
+    "variety": "SmartProduce:variety",
+    "status": "SmartProduce:status",
+
+    "temperature": "SmartProduce:temperature",
+    "humidity": "SmartProduce:humidity",
+    "soilMoisture": "SmartProduce:soilMoisture",
+
+    "variable": "SmartProduce:variable",
+    "measuredValue": "SmartProduce:measuredValue",
+    "threshold": "SmartProduce:threshold",
+    "condition": "SmartProduce:condition",
+
+    "description": "SmartProduce:description",
+    "sensorName": "SmartProduce:sensorName",
+    "measuredVariables": "SmartProduce:measuredVariables",
+
+    "locationId": "SmartProduce:locationId",
+    "latitude": "SmartProduce:latitude",
+    "longitude": "SmartProduce:longitude",
+
+    "startDate": "SmartProduce:startDate",
+    "endDate": "SmartProduce:endDate",
+    "sampleDate": "SmartProduce:sampleDate",
+    "harvestDate": "SmartProduce:harvestDate",
+
+    "quantityKg": "SmartProduce:quantityKg",
+    "qualityEvaluation": "SmartProduce:qualityEvaluation",
+
+    "soilType": "SmartProduce:soilType",
+
+    "treatmentType": "SmartProduce:treatmentType",
+    "productApplied": "SmartProduce:productApplied",
+    "mobilization": "SmartProduce:mobilization",
+
     "geometry": {
       "@id": "SmartProduce:geometry",
       "@type": "GeoProperty"
@@ -23,20 +61,12 @@
       "@id": "SmartProduce:location",
       "@type": "GeoProperty"
     },
-    "temperature": "SmartProduce:temperature",
-    "humidity": "SmartProduce:humidity",
-    "soilMoisture": "SmartProduce:soilMoisture",
-    "type": "SmartProduce:type",
-    "variety": "SmartProduce:variety",
-    "status": "SmartProduce:status",
-    "variable": "SmartProduce:variable",
-    "measuredValue": "SmartProduce:measuredValue",
-    "threshold": "SmartProduce:threshold",
-    "condition": "SmartProduce:condition",
+
     "triggeredAt": {
       "@id": "SmartProduce:triggeredAt",
       "@type": "Property"
     },
+
     "hasFarm": {
       "@id": "SmartProduce:hasFarm",
       "@type": "Relationship"
@@ -47,6 +77,22 @@
     },
     "hasDevice": {
       "@id": "SmartProduce:hasDevice",
+      "@type": "Relationship"
+    },
+    "hasLocation": {
+      "@id": "SmartProduce:hasLocation",
+      "@type": "Relationship"
+    },
+    "hasSoil": {
+      "@id": "SmartProduce:hasSoil",
+      "@type": "Relationship"
+    },
+    "hasProduction": {
+      "@id": "SmartProduce:hasProduction",
+      "@type": "Relationship"
+    },
+    "hasTreatment": {
+      "@id": "SmartProduce:hasTreatment",
       "@type": "Relationship"
     }
   }
