@@ -75,6 +75,10 @@
       "@id": "SmartProduce:hasParcel",
       "@type": "Relationship"
     },
+    "hasCrop": {
+      "@id": "SmartProduce:hasCrop",
+      "@type": "Relationship"
+    },
     "hasDevice": {
       "@id": "SmartProduce:hasDevice",
       "@type": "Relationship"
