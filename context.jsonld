@@ -83,6 +83,10 @@
       "@id": "SmartProduce:hasDevice",
       "@type": "Relationship"
     },
+    "hasUser": {
+      "@id": "SmartProduce:hasUser",
+      "@type": "Relationship"
+    },
     "hasLocation": {
       "@id": "SmartProduce:hasLocation",
       "@type": "Relationship"
